@@ -1,0 +1,446 @@
+
+.text-style{
+    color: #000000;
+    font-size: 48px;
+    top: 51px;
+
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.img-pos{
+    /* position: absolute;
+    right: 10px; */
+    background: transparent url('images/6027f094ed4efb0004199836.png') 0% 0% no-repeat padding-box;
+}
+.img-width{
+    width:1200px;
+  margin-top: -120px;
+}
+.content-align{
+    margin-top: 60px;
+}
+.content-align h3{
+    color: #000000;
+    margin-left: 124px;
+}
+/* .btn-style{
+    background:#DD1722 0% 0% no-repeat padding-box;
+    width:500px;
+    border: 1px solid #DD1722 ;
+    border-radius: 35px;
+    height: 40px;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: left;
+    padding-left: 24px;
+    
+} */
+
+.content-align h3{
+    color: #000000;
+    
+}
+.content-align h2{
+    color: #000000;
+    font-weight: 700;
+}
+.btn-next{
+    color: #FFFFFF;
+    background:#DD1722 0% 0% no-repeat padding-box;
+    border: 1px solid #DD1722 ;
+    border-radius: 35px;
+    width:500px;
+    height: 43px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.head-text p{
+
+font-weight:600;
+font-size: 48px;
+
+letter-spacing: 0px;
+
+color: #0A0A0A;
+
+opacity: 1;
+text-align: center;
+padding-top: 15px;
+  }
+
+  .head-text{
+
+height: 140px;
+
+background: transparent url('images/logo_prev_ui.png') 0% 0% no-repeat padding-box;
+
+background-position: right;
+background-size: 10rem;
+background-position-y: inherits;
+
+  }
+  .arrow-width{
+    width:12px;
+  }
+  @media screen and (min-width: 1025px) and (max-width: 1440px){
+    .content-align h3 {
+        margin-left: 90px;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1024px){
+    .head-text p{
+        margin-left: 0px;
+        font-size: 32px;
+        margin-top:24px;
+        text-align: start !important;
+        padding: 20px;
+    }
+    .img-width{
+        width:1600px;
+        margin-left: -130px;
+
+       
+    }
+    .content-align h3 {
+        color: #000000;
+        margin-left: 120px;
+    }
+  .content-align h2{
+    margin-right: 1rem;
+  }
+   
+}
+
+  @media screen and (max-width: 767px) {
+
+     .img-width{
+        width:800px;
+        margin-left: -80px;
+        margin-top: 10px;
+    }
+   
+    .content-align button{
+        /* margin-left: 40px; */
+        width: 350px;
+        }
+        .content-align h2 {
+            font-size: 23px;
+        }
+        .content-align h3 {
+            margin-left: 10px;
+        }
+        
+        .content-align{
+            margin-top: -10px;
+        }
+        .btn-next{
+            width: 300px;
+        }
+        .head-text p{
+            font-size: 24px;
+            margin-right: 120px;
+            padding-top: 20px;
+        
+        }
+        /* .content-align h3 {
+            margin-left: 6rem;
+        } */
+        .head-text{
+            background-size: 8rem;
+        }
+        .labname {
+            width: 350px !important;
+            margin-left: 0px !important;
+        }
+  }
+
+  
+.customRadio {
+	position: relative;
+}
+.customRadio input[type="radio"] {
+    opacity: 0;
+}
+.labname{
+	display: block;
+	padding: 3px 3px 3px 30px;
+	cursor: pointer;
+    border: 1px solid #707070;
+    background-color: #FFFFFF;
+    border-radius: 35px;
+    width: 500px;
+    /* margin-left: 80px; */
+    font-size: 24px;
+    font-weight: 600;
+}
+
+input[type="radio"] {
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	-webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+input[type="radio"]:checked ~ label {
+	background-color: #DD1722;;
+  color: black;
+  font-weight: 700;
+  font-size: 25px;
+}
+.bg-color{
+    background-color:#FDB812 ;
+}
+.bg-overflow{
+    overflow-x: hidden;
+
+}
+
+
+
+@media screen and (min-device-width: 1920px){
+    .img-width{
+    top: 0px;
+    left: -194px;
+    /* width: 1920px; */
+    height: 1080px;
+    /* background: transparent url('img/slide_1_1.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+}
+
+.content-align h3{
+    top: 274px;
+left: 1114px;
+margin-left: 160px;
+height: 46px;
+text-align: left;
+font: normal normal bold 39px/46px Pedigree;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.content-align h2{
+top: 340px;
+left: 1114px;
+/* width: 625px; */
+height: 51px;
+/* UI Properties */
+text-align: left;
+font: normal normal bold 44px/51px Pedigree;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.labname{
+    top: 736px;
+left: 1114px;
+width: 653px;
+height: 70px;
+/* UI Properties */
+background: white 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+border-radius: 35px;
+opacity: 1;
+padding: 12px 3px 3px 30px;
+}
+.btn-next{
+    width: 653px;
+    height: 70px;
+    font-size: 30px;
+border-radius: 35px;
+border: 1px solid #707070;
+}
+input[type="radio"]:checked ~ label {
+font-size: 30px;
+padding: 12px 3px 3px 30px;
+
+}
+.head-text{
+    text-align: left;
+font: normal normal bold 64px/75px Pedigree;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+}
+.head-text p{
+ 
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.content-name h2{
+    font-weight: 700;
+    color: #000000;
+}
+
+.mediaimg-width{
+    width: 80%;
+    margin-top: 12%;
+}
+.img-media img{
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    border:2px solid  #DD1722;
+}
+.img-media p{
+    font-weight: 700;
+    max-width: 500px;
+    color: #000000;
+    display: flex;
+    align-items: center !important;
+}
+.img-media1 {
+    align-items: center !important;
+}
+.img-media {
+    align-items: center !important;
+}
+.img-media1 img{
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    border: 5px solid white;
+    margin-left: 20px;
+    box-shadow: 1px 1px 1px 1px #dbdada;
+}
+.media-border{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px ;
+    margin-right: 10%;
+    height: 100px;
+
+}
+.media-border h2{
+    /* margin-top: 25px; */
+    font-size: 32px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 6rem;
+}
+ .media-border button{
+  
+    margin-right: 60px;
+    width: 150px;
+    height: 50px;
+    font-size: 28px;
+    background-color: #DD1722;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-weight: 700;
+ }
+ .meetme{
+    align-self: center
+ }
+ .heading{
+    align-self: center;
+ }
+ .fis
+  {
+    position:absolute;
+   top: -30px;
+    left: -20px;
+    z-index: 1;
+  }
+  @media screen and (max-device-width: 767px) {
+    .media-border button{
+        width: 80px;
+        font-weight: 500;
+        font-size: 14px;
+        margin-right: 10px;
+        height: 40px;
+    }
+    .img-media1 img{
+        margin-top: 20px;
+        width: 19%;
+  }
+  .media-border{
+    height: 95x;
+  }
+  .ipad-content{
+    margin-left: 25px;
+}
+.img-media p{
+    margin-right: 40px;
+}
+.img-media img{
+    margin-top:20px;
+    width: 20%;
+}
+.rowreverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
+}
+
+  @media screen and (max-device-width: 1024px) {
+   
+    .bg-image{
+        display: none;
+    }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .ipad-content{
+        margin-left: 30px;
+    }
+    .mediaimg-width{
+        margin-left: 30px;
+    }
+    .rowreverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (min-device-width: 1920px) {
+
+.content-name h2{
+    text-align: left;
+    font: normal normal bold 55px/72px Mars Centra;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.img-media {
+    text-align: left;
+    font: normal normal bold 25px/32px Mars Centra;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.img-media1 img{
+    top: 433px;
+left: 1035px;
+width: 263px;
+height: 139px;
+}
+.media-border{
+    top: 414px;
+left: 1014px;
+width: 827px;
+height: 177px
+}
+.media-border h2{
+    text-align: left;
+font: normal normal 800 48px/64px Mars Centra;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.mediaimg-width{
+    top: 314px;
+    left: 104px;
+    width: 768px;
+    height: 659px
+}
+ .head-text p{
+font: normal normal 800 64px/86px Mars Centra;
+ }
+}
